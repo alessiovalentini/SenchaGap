@@ -36,6 +36,9 @@
             "path": "resources/js/cordova-2.2.0.js"
         },
         {
+            "path": "resources/js/ChildBrowser.js"
+        },
+        {
             "path": "sdk/sencha-touch-all.js"
         },
         {

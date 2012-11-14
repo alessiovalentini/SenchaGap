@@ -5,6 +5,12 @@ Ext.define('senchaGap.controller.ApplicationCtrl', {
 		console.log('app ctrl');
 		// phonegap starts
 		document.addEventListener( "deviceready" , this.onDeviceReady, false);
+		// phonegap resume
+		document.addEventListener("resume", this.onDeviceResume, false);
+		// app goes offline
+		document.addEventListener("offline", this.onDeviceOffline, false);
+		// app goes back online
+		document.addEventListener("online", this.onDeviceOnline, false);
 	},
 
 	config: {
@@ -100,6 +106,21 @@ Ext.define('senchaGap.controller.ApplicationCtrl', {
 	// }
 
 	onDeviceReady: function() {
-        alert('hallo gap');
+
+        // alert('hallo gap');
+
+        console.log( window.plugins.childBrowser );
+    },
+
+    onDeviceResume: function(){
+    	alert('resume');
+    },
+
+    onDeviceOffline: function(){
+    	alert('device offline');
+    },
+
+    onDeviceOnline: function(){
+    	alert('device back online');
     }
 });
