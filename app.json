@@ -115,7 +115,7 @@
     "buildPaths": {
         "testing": "build/testing",
         "production": "build/production",
-        "package": "build/package",
+        "package": "build/phonegap/www",
         "native": "build/native"
     },
 

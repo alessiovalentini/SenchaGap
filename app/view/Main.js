@@ -5,7 +5,7 @@ Ext.define("senchaGap.view.Main", {
         'Ext.Video'
     ],
     config: {
-        tabBarPosition: 'bottom',
+        tabBarPosition: 'top',
 
         items: [
             {
