@@ -106,10 +106,9 @@ Ext.define('senchaGap.controller.ApplicationCtrl', {
 	// }
 
 	onDeviceReady: function() {
-
-        // alert('hallo gap');
-
-        console.log( window.plugins.childBrowser );
+		alert('hallo gap');
+        var loc = 'https://google.com';
+        window.plugins.childBrowser.showWebPage( loc, { showLocationBar: true } );
     },
 
     onDeviceResume: function(){

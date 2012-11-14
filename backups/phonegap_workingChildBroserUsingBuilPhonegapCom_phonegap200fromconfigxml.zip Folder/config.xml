@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	    xmlns:gap	= "http://phonegap.com/ns/1.0"
+	    id			= "com.alessiovalentini.senchaGap"
+	    version 	= "0.0.1">
+
+	<name>SenchaGap</name>
+
+	<description>
+	</description>
+
+	<author href="http://www.makepositive.com" email="alessio.valentini@makepositive.com">
+		Alessio Valentini @ Makepositive
+	</author>
+
+	<gap:plugin name="ChildBrowser" />
+
+	<preference name="phonegap-version" value="2.0.0" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="webviewbounce" value="false"/>
+
+</widget>

@@ -33,7 +33,7 @@
      */
     "js": [
         {
-            "path": "resources/js/cordova-2.2.0.js"
+            "path": "resources/js/cordova-2.2.0.js" // then remove this one and add in the index.html, phonegap.js for auto injection
         },
         {
             "path": "resources/js/ChildBrowser.js"
